@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halo"
+    android:clipToPadding="false"
+    android:gravity="center_horizontal|bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="60dp"
+    tools:context=".MainActivity">
+
+    <com.seagazer.halo.Halo
+        android:id="@+id/halo1"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        app:haloColor="#F3F6F6"
+        app:haloDuration="5000"
+        app:haloInsertEdge="8dp"
+        app:haloShape="rect"
+        app:haloWidth="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/halo_card"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Rect"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </com.seagazer.halo.Halo>
+
+    <com.seagazer.halo.Halo
+        android:id="@+id/halo2"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        app:haloColor="#FFFF61"
+        app:haloCornerRadius="10dp"
+        app:haloInsertEdge="8dp"
+        app:haloShape="roundRect"
+        app:haloWidth="3dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/halo_card"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Round Rect"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
+    </com.seagazer.halo.Halo>
+
+    <com.seagazer.halo.Halo
+        android:id="@+id/halo3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        app:haloColor="#F8A01F"
+        app:haloInsertEdge="8dp"
+        app:haloShape="circle"
+        app:haloWidth="3dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/halo_card"
+            app:cardCornerRadius="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Circle"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
+    </com.seagazer.halo.Halo>
+
+
+</LinearLayout>

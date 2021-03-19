@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Halo">
+        <attr name="haloShape">
+            <enum name="rect" value="0" />
+            <enum name="roundRect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+        <attr name="haloColor" format="color" />
+        <attr name="haloDuration" format="integer" />
+        <attr name="haloWidth" format="dimension" />
+        <attr name="haloCornerRadius" format="dimension" />
+        <attr name="haloInsertEdge" format="dimension" />
+    </declare-styleable>
+</resources>
