@@ -42,4 +42,4 @@ implementation 'com.github.seagazer:halo:latestVersion'
 
 ```
 
-![halo.gif](https://upload-images.jianshu.io/upload_images/4420407-fe831d22eaf5e576.gif?imageMogr2/auto-orient/strip)
+![](https://upload-images.jianshu.io/upload_images/4420407-d0fd9e58f7bd3775.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1920)
